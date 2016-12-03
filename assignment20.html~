@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+<head>
+<title>Arrays in javascript</title>
+<script>
+
+var employee=[{name:"Prashant", age:27, salary:340000, city:"Amaravati",state:"Maharashtra",pin:411220}, 
+{name:"Atul", age:26, salary:230000, city:"kolhapur",state:"Maharashtra",pin:416202},
+{name:"Abhijit", age:29, salary:540000, city:"KOolhapur",state:"Maharashtra",pin:416202},
+{name:"Sagar", age:26, salary:140000, city:"Kanpur",state:"Utter Pradesh",pin:410220},
+{name:"Kunal", age:26, salary:300000, city:"Htderabad",state:"Andhra Pradesh",pin:401220},
+{name:"Aditya", age:29, salary:310000, city:"Vardha",state:"Maharashtra",pin:410220},
+];
+
+document.write("Prashant's Details :"+" "+employee[0].name + " ,"+employee[0].age + ", "+employee[0].salary+" ,"+employee[0].city + " ,"+employee[0].state+ " ,"+employee[0].pin+"<br>");
+
+document.write("Atul's Details :"+ " "+employee[1].name + " ,"+employee[1].age + ", "+employee[1].salary+" ,"+employee[1].city + " ,"+employee[1].state+ " ,"+employee[1].pin+"<br>");
+
+document.write("Sagar's Details :"+ " "+employee[3].name + " ,"+employee[3].age + ", "+employee[3].salary+" ,"+employee[3].city + " ,"+employee[3].state+ " ,"+employee[3].pin+"<br>");
+
+document.write("Abhijit's Details :"+ " "+employee[2].name + " ,"+employee[2].age + ", "+employee[2].salary+" ,"+employee[2].city + " ,"+employee[2].state+ " ,"+employee[2].pin+"<br>");
+
+document.write("Kunal's Details :"+ " "+employee[4].name + " ,"+employee[4].age + ", "+employee[4].salary+" ,"+employee[4].city + " ,"+employee[4].state+ " ,"+employee[4].pin+"<br>");
+
+document.write("Aditya's Details :"+ " "+employee[5].name + " ,"+employee[5].age + ", "+employee[5].salary+" ,"+employee[5].city + " ,"+employee[5].state+ " ,"+employee[5].pin+"<br>");
+
+alert("Prashant's Details :"+" "+employee[0].name + " ,"+employee[0].age + ", "+employee[0].salary+" ,"+employee[0].city + " ,"+employee[0].state+ " ,"+employee[0].pin);
+
+alert("Atul's Details :"+ " "+employee[1].name + " ,"+employee[1].age + ", "+employee[1].salary+" ,"+employee[1].city + " ,"+employee[1].state+ " ,"+employee[1].pin);
+
+alert("Sagar's Details :"+ " "+employee[3].name + " ,"+employee[3].age + ", "+employee[3].salary+" ,"+employee[3].city + " ,"+employee[3].state+ " ,"+employee[3].pin);
+
+alert("Abhijit's Details :"+ " "+employee[2].name + " ,"+employee[2].age + ", "+employee[2].salary+" ,"+employee[2].city + " ,"+employee[2].state+ " ,"+employee[2].pin);
+
+alert("Kunal's Details :"+ " "+employee[4].name + " ,"+employee[4].age + ", "+employee[4].salary+" ,"+employee[4].city + " ,"+employee[4].state+ " ,"+employee[4].pin);
+
+alert("Aditya's Details :"+ " "+employee[5].name + " ,"+employee[5].age + ", "+employee[5].salary+" ,"+employee[5].city + " ,"+employee[5].state+ " ,"+employee[5].pin);
+
+</script>
+</head>
+<body>
+<p>Sourav Chandidas Ganguly (About this sound pronunciation (help·info); born 8 July 1972), affectionately known as Dada (meaning "elder brother" in Bengali), is a former Indian cricketer and captain of the Indian national team. Currently, he is appointed as the honourable President of the CAB[1] and President of the Editorial Board with Wisden India.[</p>
+
+</body>
+</html>
